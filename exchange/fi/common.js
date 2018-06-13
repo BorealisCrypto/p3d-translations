@@ -1,7 +1,9 @@
 {
 	"masthead": {
-		"holdings": "Holdings = Omistus", 
+		"holdings": "Holdings", 
 		"balance": "{{saldo}} ETH in contract"
+		"holdings": "Omistukset", 
+		"balance": "{{saldo}} Ethereumia sopimuksessa"
 	},
 	"menu": {
 		"exchange" : [
@@ -9,17 +11,38 @@
 			"Sell & Withdraw",
 			"Transfer",
 			"Holdings"
+			"Pörssi",
+			"Myy ja kotiuta",
+			"Siirrä",
+			"Omistukset"
 		],
 		"staking": "Staking & Masternode",
 		"news": "News",
 		"chat": "Chat",
 		"explorer": "Explorer"
+		"staking": "Steikkaus & Masternode",
+		"news": "Uutiset",
+		"chat": "Chatti",
+		"explorer": "Luotain"
 	},
 	"notifications": {
 		"loading": "Loading...",
 		"cancelled": "Transaction was cancelled by the user.",
 		"error": "An error occured",
 		"withdrawalSubmitted": "Withdrawal request has been transmitted to the blockchain. Awaiting confirmation..", 
+		"sellSubmitted": "Sell order has been transmitted to the blockchain. Awaiting confirmation..",
+		"sellConfirmed": "Your P3D token sell order has been confirmed by the blockchain! You succesfully sold {{tokens}} P3D tokens for {{eth}} ETH.",
+		"sellExternal": "Someone else just sold {{tokens}} P3D tokens for {{eth}} ETH.",
+		"buySubmitted": "Buy order has been transmitted to the blockchain. Awaiting confirmation..",
+		"buyConfirmed": "Your P3D token purchase order has been confirmed by the blockchain! You succesfully bought {{tokens}} P3D tokens with {{eth}} ETH.",
+		"buyExternal": "Someone else just bought {{tokens}} P3D tokens with {{eth}} ETH.",
+		"transferSubmitted": "Transfer order has been transmitted to the blockchain. Awaiting confirmation..",
+		"transferConfirmed": "Your P3D token transfer order has been confirmed by the blockchain! You succesfully transfered {{tokens}} P3D tokens.",
+		"transferExternal": "Someone else just transferred {{tokens}} P3D tokens."
+		"loading": "Lataa...",
+		"cancelled": "Siirto keskeytetty käyttäjän toimesta.",
+		"error": "On tapahtunut virhe",
+		"withdrawalSubmitted": "Kotiutuspyyntö on lähetetty lohkoketjuun. Odotetaan varmistusta..", 
 		"sellSubmitted": "Sell order has been transmitted to the blockchain. Awaiting confirmation..",
 		"sellConfirmed": "Your P3D token sell order has been confirmed by the blockchain! You succesfully sold {{tokens}} P3D tokens for {{eth}} ETH.",
 		"sellExternal": "Someone else just sold {{tokens}} P3D tokens for {{eth}} ETH.",
