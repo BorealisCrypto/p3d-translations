@@ -43,17 +43,18 @@
 		"cancelled": "Siirto keskeytetty käyttäjän toimesta.",
 		"error": "On tapahtunut virhe",
 		"withdrawalSubmitted": "Kotiutuspyyntö on lähetetty lohkoketjuun. Odotetaan varmistusta..", 
-		"sellSubmitted": "Sell order has been transmitted to the blockchain. Awaiting confirmation..",
-		"sellConfirmed": "Your P3D token sell order has been confirmed by the blockchain! You succesfully sold {{tokens}} P3D tokens for {{eth}} ETH.",
-		"sellExternal": "Someone else just sold {{tokens}} P3D tokens for {{eth}} ETH.",
-		"buySubmitted": "Buy order has been transmitted to the blockchain. Awaiting confirmation..",
-		"buyConfirmed": "Your P3D token purchase order has been confirmed by the blockchain! You succesfully bought {{tokens}} P3D tokens with {{eth}} ETH.",
-		"buyExternal": "Someone else just bought {{tokens}} P3D tokens with {{eth}} ETH.",
-		"transferSubmitted": "Transfer order has been transmitted to the blockchain. Awaiting confirmation..",
-		"transferConfirmed": "Your P3D token transfer order has been confirmed by the blockchain! You succesfully transfered {{tokens}} P3D tokens.",
-		"transferExternal": "Someone else just transferred {{tokens}} P3D tokens."
+		"sellSubmitted": "Myynti pyyntö on lähetetty lohkoketjuun. Odotetaan varmistusta..",
+		"sellConfirmed": "P3D tokenisi myynti pyyntö on vahvistettu lohkoketjussa! Onnistuneesti myit {{tokens}} P3D tokenia {{eth}} Etherumin hintaan.",
+		"sellExternal": "Joku myi juuri {{tokens}} P3D tokenia {{eth}} Ethereumin hintaan.",
+		"buySubmitted": "Osto pyyntösi on toimitettu lohkoketjuun. Odotetaan vahvistusta..",
+		"buyConfirmed": "P3D tokenien ostopyyntösi on vahvistettu lohkoketjussa! Onnistuneesti ostit {{tokens}} P3D tokenia {{eth}} Ethereumin hintaan.",
+		"buyExternal": "Joku juuri osti {{tokens}} P3D tokenia {{eth}} Ethereumin hintaan.",
+		"transferSubmitted": "Siirto pyyntösi on toimitettu lohkoketjuun. Odotetaan vahvistusta..",
+		"transferConfirmed": "P3D tokenien siirtopyyntösi on vahvistettu lohkoketjussa! Olet onnistuneesti siirtänyt {{tokens}} P3D tokenia.",
+		"transferExternal": "Joku juuri siirsi {{tokens}} P3D tokenia."
 	},
 	"footer": "This is an entertainment platform, not an investment platform, are you not entertained?",
+	"footer": "Tämä alusta on tarkoitettu viihdekäyttöön, ei kurttuotsaiseensijoituskäyttöön. Etkö viihdykin luonamme vallan mainiosti?",
 	"pages": {
 		"purchase": {
 			"title": "Purchase tokens",
@@ -66,6 +67,13 @@
 					"empty": "Type a number above to instantly see price estimations.",
 					"button": "Purchase",
 					"hint": "1). The higher the gas price you offer, the quicker the ETH miners will pick up and confirm your transaction."
+					"title": "Osta P3D tokeneita",
+					"spend": "Ethereumia käytettävissäsi",
+					"approx": "Arviolta saat {{amount}} P3D tokenia.",
+					"invalid": "Syötä hyväksytyssä muodossa",
+					"empty": "Kirjoita haluamasi summa ja näe heti hinta-arvio.",
+					"button": "Osta",
+					"hint": "1). Mitä korkeampi bensan hintatarjouksesi on, sitä nopeammin Ethereumi mainerit vahvistavat pyyntösi."
 				},
 				"reinvest": {
 					"title": "Reinvest Gauntlet Rewards",
